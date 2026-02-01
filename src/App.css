@@ -5,6 +5,15 @@
   box-sizing: border-box;
 }
 
+.app {
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  gap: 10px;
+}
+
 /* Page center */
 body {
   min-height: 100vh;
@@ -13,6 +22,28 @@ body {
   justify-content: center;
   background: linear-gradient(135deg, #141e30, #243b55);
   font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+.search-box {
+  margin-left: 70px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.search-box input {
+  padding: 9px;
+  height: 30px;
+  border: 3px solid #333;
+  margin-right: 5px;
+}
+
+.search-box button {
+  font-size: 13px;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 12px;
+  text-align: center;
 }
 
 /* Weather card */
